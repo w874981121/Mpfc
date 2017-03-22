@@ -1,1 +1,23 @@
 //xdzf  通用scss文件  ----wangyq 2017.3起
+//统一属性变量
+$bfcbd9:#bfcbd9;
+//公用字号类#
+.f14{
+  font-size: 14px;
+}
+//公用类
+.outerdiv{   //模块最外层div包裹
+  overflow: hidden;
+  height: auto;
+  border: 1px solid $bfcbd9;
+  margin: 20px;
+  border-radius: 4px;
+  .title{    //功能模块标题
+    display: block;
+    line-height:36px;
+    padding-left: 20px;
+    font-size: 16px;
+    border-bottom: 1px solid $bfcbd9;
+  }
+}
+
